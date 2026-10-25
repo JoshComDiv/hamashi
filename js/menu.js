@@ -93,6 +93,23 @@ const MENU_COLUMNS = [
           { name: 'Pollo a la Naranja', description: 'Pollo sobre arroz con pollo a la naranja, ajonjolí y una pizca de cebollín.', price: '$140' },
           { name: 'Verduras Tempura', description: 'Zanahoria, calabaza, morrón verde, cebolla y carne a elegir.', price: 'Res o pollo $130 · Camarón o mixto $140' },
         ]
+      },
+      {
+        title: 'Bebidas',
+        items: [
+          { name: 'Calpico', price: '$35' },
+          { name: 'Té helado jazmín', price: '$36' },
+          { name: 'Coca-Cola', price: '$38' },
+          { name: 'Arizona', price: '$35' },
+          { name: 'Cerveza', price: '$40' }
+        ]
+      },
+      {
+        title: 'Postres',
+        items: [
+          { name: 'Helado frito', price: '$80' },
+          { name: 'Banana tempura', price: '$80' }
+        ]
       }
     ]
   }
@@ -113,7 +130,9 @@ const CATEGORY_TITLES = {
   'Rollos Tradicionales': 'Rollos tradicionales',
   'Rollos Especiales': 'Rollos especiales',
   'Rollos de Temporada': 'Rollos de temporada',
-  'Otras Delicias': 'Otras delicias'
+  'Otras Delicias': 'Otras delicias',
+  Bebidas: 'Bebidas',
+  Postres: 'Postres'
 };
 
 let activeCategory = 'Todos';
