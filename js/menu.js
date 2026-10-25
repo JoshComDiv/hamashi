@@ -23,10 +23,10 @@ const MENU_COLUMNS = [
           { name: 'Zeus', description: 'Envuelto en Philadelphia, coronado con salmón a la plancha y pasta wonton.', price: '$180' },
           { name: 'Ebi Roll', description: 'Envuelto en camarón.', price: '$140' },
           { name: 'Kenay (Crunch)', description: 'Rollo solo arroz crujiente, coronado con guacamole y atún spicy.', price: '$170' },
-          { name: 'Philadelphia Empanizado', description: 'Empanizado por fuera.', price: '$130' },
-          { name: 'Kani Roll Especial', description: 'Empanizado y coronado con ensalada kani.', price: '$170' },
-          { name: 'Terramar', description: 'Empanizado, cerdo, carne de res y camarón.', price: '$140' },
-          { name: 'Philadelphia Especial', description: 'Philadelphia con aguacate, ajonjolí dulce bañado en salsa de anguila.', price: '$140' }
+          { name: 'Philadelphia Empanizado', description: 'Rollo philadelphia empanizado por fuera.', price: '$130' },
+          { name: 'Kani Roll Especial', description: 'Rollo envuelto en surimi, empanizado por fuera y coronado con ensalada kani.', price: '$170' },
+          { name: 'Terramar', description: 'Empanizado al centro con carne de res, philadelphia y camarón.', price: '$140' },
+          { name: 'Philadelphia Especial', description: 'rollo forrado de philadelphia, aguacade y ajonjoli con carne a elegir.', price: '$140' }
         ]
       }
     ]
@@ -36,16 +36,16 @@ const MENU_COLUMNS = [
       {
         title: 'Rollos Especiales',
         items: [
-          { name: 'Ebi Roll Especial', description: 'Envuelto en camarón, coronado con aderezo especial y trozos de camarón empanizado.', price: '$180' },
-          { name: 'Kimo Roll', description: 'Rollo envuelto en aguacate con Philadelphia, aderezo spicy y camarón empanizado al centro.', price: '$150' },
-          { name: 'Tampi Roll', description: 'Empanizado, mitad con queso gratinado y mitad ensalada de surimi.', price: '$170' },
-          { name: 'Siake Roll', description: 'Envuelto en salmón.', price: '$160' },
-          { name: 'Filete de Atún', description: 'Envuelto en atún.', price: '$160' },
-          { name: 'Bufecito', description: '2 bocados empanizados, 2 de ajonjolí, 2 de surimi, 2 de aguacate y 2 de Philadelphia.', price: '$160' },
-          { name: 'Colimense', description: 'Envuelto en aguacate, coronado con ensalada de surimi, salmón, anguila y un trocito de limón.', price: '$200' },
+          { name: 'Ebi Roll Especial', description: 'Centro vegetariano forrado con camaron y coronado con aderezo especial y trocitos de camaron empanizado.', price: '$180' },
+          { name: 'Kimo Roll', description: 'Centro de philadelphia, pepino y camaron empanizado coronado con aguacate y adereso especial.', price: '$150' },
+          { name: 'Tampi Roll', description: 'Empanizado, mitad con queso gratinado y mitad ensalada de surimi carne a elegir.', price: '$170'  },
+          { name: 'Siake Roll', description: 'Al centro pepino, aguacate envuelto en salmon.', price: '$160' },
+          { name: 'Filete de Atún', description: 'Al centro pepino, aguacate envuelto en atún.', price: '$160' },
+          { name: 'Bufecito', description: '2 bocados empanizados, 2 de ajonjolí, 2 de surimi, 2 de aguacate y 2 de Philadelphia con carne a elegir.', price: '$160' },
+          { name: 'Colimense', description: 'Envuelto en aguacate, coronado con ensalada de surimi, salmón, anguila y un twist de limón.', price: '$200' },
           { name: 'Carmelita Roll', description: 'Envuelto de atún, salmón y surimi.', price: '$170' },
           { name: '3 Quesos', description: 'Philadelphia, manchego, amarillo y carne a elegir.', price: '$150' },
-          { name: 'Manchego', description: 'Empanizado, cubierto con queso gratinado y carne a elegir.', price: '$160' }
+          { name: 'Manchego', description: 'Empanizado, cubierto con queso gratinado y carne a elegir.', price: '$150' }
         ]
       }
     ]
@@ -56,14 +56,14 @@ const MENU_COLUMNS = [
         title: 'Rollos Especiales',
         items: [
           { name: 'Arcoiris', description: 'Relleno de pepino, y aguacate, forrado de camaron, kani, salmon, atun y masago.', price: '$150' },
-          { name: 'Empanizado Especial', description: 'Empanizado por fuera, pulpo, aguacate y ensalada.', price: '$175' },
+          { name: 'Empanizado Especial', description: 'Empanizado por fuera conronado cpn ensalada kani trozitos de pulpo y poquito de giracha.', price: '$175' },
           { name: 'Tempura Spicy', description: 'Rollo capeado con tempura picante, coronado con ensalada de camarón, salsa de almeja y aderezo chipotle.', price: '$170' },
           { name: 'Explosión', description: 'Rollo de plátano por fuera, al centro ensalada de camarón y pepino, coronado con camarón picante y queso manchego gratinado.', price: '$210' },
           { name: 'Rollo Gruñudo', description: 'Al centro camarón empanizado, pepino y aguacate; coronado con ensalada kani.', price: '$160' },
-          { name: 'Avocado Especial', description: 'Envuelto en aguacate y camarón empanizado; al centro pepino, Philadelphia, zanahoria y aguacate.', price: '$150' },
-          { name: 'Tempura Especial', description: '4 rollitos de camarón con ensalada kani, capeados en tempura.', price: '$155' },
-          { name: 'Banana Especial', description: 'Envuelto en Philadelphia y plátano frito; al centro Philadelphia, zanahoria, aguacate, pepino y carne a elegir.', price: '$150' },
-          { name: 'California Especial', description: 'Philadelphia, zanahoria, aguacate y pepino; coronado con aderezo especial, queso manchego horneado y camarón empanizado.', price: '$165' }
+          { name: 'Avocado Especial', description: 'Envuelto en aguacate y camarón empanizado; al centro pepin y Philadelphia.', price: '$150' },
+          { name: 'Tempura Especial', description: '4 rollitos de camarón con ensalada kani y aguacate, capeados en tempura.', price: '$155' },
+          { name: 'Banana Especial', description: 'Envuelto en cama de Philadelphia y plátano frito; al centro Philadelphia, aguacate, pepino y carne a elegir.', price: '$150' },
+          { name: 'California Especial', description: 'Philadelphia, aguacate y pepino; coronado con aderezo especial, queso manchego horneado y camarón empanizado.', price: '$165' }
         ]
       }
     ]
@@ -73,9 +73,9 @@ const MENU_COLUMNS = [
       {
         title: 'Rollos de Temporada',
         items: [
-          { name: 'Vegano Roll', description: 'Al centro zanahoria, pepino y aguacate; coronado de aguacate y cambray, sin alga.', price: '$120' },
-          { name: 'Fresa Roll', description: 'Al centro Philadelphia, zanahoria, pepino y aguacate; cubierto de fresa.', price: '$120' },
-          { name: 'Mango Roll', description: 'Al centro Philadelphia, zanahoria, pepino, aguacate y carne a elegir; cubierto de mango.', price: '$130' }
+          { name: 'Vegano Roll', description: 'Al centro zanahoria, pepino y aguacate; coronado de aguacate y campio, sin alga.', price: '$120' },
+          { name: 'Fresa Roll', description: 'Al centro Philadelphia, pepino y aguacate con carne a elegir; cubierto de fresa .', price: '$120' },
+          { name: 'Mango Roll', description: 'Al centro Philadelphia, pepino, aguacate y carne a elegir; cubierto de mango.', price: '$130' }
         ]
       }
     ]
@@ -85,7 +85,7 @@ const MENU_COLUMNS = [
       {
         title: 'Otras Delicias',
         items: [
-          { name: 'Yakisoba', description: 'Zanahoria, calabaza, morrón rojo y pasta. Elige pollo, camarón, res o mixto.', price: 'Pollo $140 · Mixto $150' },
+          { name: 'Yakisoba', description: 'Col, zanahoria, calabaza, morrón rojo y pasta. Elige pollo, camarón, res o mixto.', price: 'Camaron, Res o Pollo $140 · Mixto $150' },
           { name: 'Ensalada de Mariscos', description: 'Pepino, camarón, kani, atún y callo de almeja con aguacate.', price: 'Orden Media $90 · Completa $140' },
           { name: 'Chow Mein', description: 'Cebolla, apio, zanahoria y pasta. Elige pollo, camarón, res o mixto.', price: '$140' },
           { name: 'Ramen Base de Puerco', description: 'Pasta, zanahoria, calabaza, naruto, aguacate, elote amarillo, huevo, cebollín y carne a elegir.', price: '$160' },
