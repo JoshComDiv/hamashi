@@ -92,6 +92,7 @@ const MENU_COLUMNS = [
           { name: 'Tepa Udon', description: 'Verduras a la plancha con pasta udon y carne a elegir: pollo, camarón, res o mixto.', price: 'Camaron, Res o Pollo $160 · Mixto $170' },
           { name: 'Pollo a la Naranja', description: 'Pollo sobre arroz con pollo a la naranja, ajonjolí y una pizca de cebollín.', price: '$140' },
           { name: 'Verduras Tempura', description: 'Zanahoria, calabaza, morrón verde, cebolla y carne a elegir.', price: 'Res o pollo $130 · Camarón o mixto $140' },
+          { name: 'Verduras Tempura', description: 'Zanahoria, calabaza, morrón verde, cebolla y carne a elegir.', price: 'Res o pollo $130 · Camarón o mixto $140' },
         ]
       },
       {
