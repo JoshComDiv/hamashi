@@ -60,7 +60,7 @@ const MENU_COLUMNS = [
           { name: 'Tempura Spicy', description: 'Rollo capeado con tempura picante, coronado con ensalada de camarón, salsa de almeja y aderezo chipotle.', price: '$170' },
           { name: 'Explosión', description: 'Rollo de samlon por fuera, al centro de surimi y pepino, coronado con camarón a la plancha picante y queso manchego gratinado.', price: '$210' },
           { name: 'Rollo Gruñudo', description: 'Al centro camarón empanizado, pepino y aguacate; coronado con ensalada kani.', price: '$160' },
-          { name: 'Avocado Especial', description: 'Envuelto en aguacate y camarón empanizado; al centro pepin y Philadelphia.', price: '$150' },
+          { name: 'Avocado Especial', description: 'Envuelto en aguacate y camarón empanizado; al centro pepino y Philadelphia.', price: '$150' },
           { name: 'Tempura Especial', description: '4 rollitos de camarón con ensalada kani y aguacate, capeados en tempura.', price: '$155' },
           { name: 'Banana Especial', description: 'Envuelto en cama de Philadelphia y plátano frito; al centro Philadelphia, aguacate, pepino y carne a elegir.', price: '$150' },
           { name: 'California Especial', description: 'Philadelphia, aguacate y pepino; coronado con aderezo especial, queso manchego horneado y camarón empanizado.', price: '$165' }
