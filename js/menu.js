@@ -86,14 +86,12 @@ const MENU_COLUMNS = [
         title: 'Otras Delicias',
         items: [
           { name: 'Yakisoba', description: 'Col, zanahoria, calabaza, morrón rojo y pasta. Elige pollo, camarón, res o mixto.', price: 'Camaron, Res o Pollo $140 · Mixto $150' },
-          { name: 'Ensalada de Mariscos', description: 'Pepino, camarón, kani, atún y callo de almeja con aguacate.', price: 'Orden Media $90 · Completa $140' },
-          { name: 'Chow Mein', description: 'Cebolla, apio, zanahoria y pasta. Elige pollo, camarón, res o mixto.', price: '$140' },
-          { name: 'Ramen Base de Puerco', description: 'Pasta, zanahoria, calabaza, naruto, aguacate, elote amarillo, huevo, cebollín y carne a elegir.', price: '$160' },
-          { name: 'Tepa Udon', description: 'Verduras a la plancha con pasta udon y carne a elegir: pollo, camarón, res o mixto.', price: '$170' },
-          { name: 'Ramen Base de Puerco y Pollo', description: 'Pasta, zanahoria, calabaza, naruto, aguacate, elote amarillo, huevo, cebollín y carne a elegir.', price: '$160' },
+          { name: 'Ensalada de Mariscos', description: 'Pepino, camarón, kani, atún y callo de almeja coronado con aguacate.', price: 'Orden Media $90 · Completa $140' },
+          { name: 'Chow Mein', description: 'Col, cebolla, apio, zanahoria y pasta. Elige pollo, camarón, res o mixto.', price: 'Camaron, Res o Pollo $140 · Mixto $150' },
+          { name: 'Ramen Base de Puerco', description: 'Pasta, zanahoria, calabaza, naruto, elote amarillo, huevo, cebollín y carne a elegir. Puede ser picoso.', price: 'Res o Pollo $160 · Camaron $170 · Mixta o Panceta $180' },
+          { name: 'Tepa Udon', description: 'Verduras a la plancha con pasta udon y carne a elegir: pollo, camarón, res o mixto.', price: 'Camaron, Res o Pollo $160 · Mixto $170' },
           { name: 'Pollo a la Naranja', description: 'Pollo sobre arroz con pollo a la naranja, ajonjolí y una pizca de cebollín.', price: '$140' },
-          { name: 'Verduras Tempura', description: 'Zanahoria, calabaza, morrón, cebolla y carne a elegir.', price: 'Res o pollo $130 · Camarón o mixto $140' },
-          { name: 'Ramen Picante Base de Puerco y Pollo', description: 'Pasta, zanahoria, calabaza, naruto, aguacate, elote amarillo, huevo, cebollín y carne a elegir.', price: '$176 · mixto 176' }
+          { name: 'Verduras Tempura', description: 'Zanahoria, calabaza, morrón verde, cebolla y carne a elegir.', price: 'Res o pollo $130 · Camarón o mixto $140' },
         ]
       }
     ]
