@@ -63,7 +63,7 @@ const MENU_COLUMNS = [
           { name: 'Avocado Especial', description: 'Envuelto en aguacate y camarón empanizado; al centro pepino y Philadelphia.', price: '$150' },
           { name: 'Tempura Especial', description: '4 rollitos de camarón con ensalada kani y aguacate, capeados en tempura.', price: '$155' },
           { name: 'Banana Especial', description: 'Envuelto en cama de Philadelphia y plátano frito; al centro Philadelphia, aguacate, pepino y carne a elegir.', price: '$150' },
-          { name: 'California Especial', description: 'Philadelphia, aguacate y pepino; coronado con aderezo especial, queso manchego horneado y camarón empanizado.', price: '$165' }
+          { name: 'California Especial', description: 'Al centro philadelphia, aguacate y pepino; coronado con aderezo especial, queso manchego horneado y camarón empanizado.', price: '$165' }
         ]
       }
     ]
