@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#faf8f5">
+  <title>Hamashi | Menú japonés</title>
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+  <div class="app-container">
+    <aside class="sidebar">
+      <a class="brand-logo" href="" data-category="Todos" aria-label="Hamashi, mostrar todo el menú">
+        <img class="brand-logo-image" src="assets/images/hamashi-logo.png" alt="Hamashi Sushi">
+        <span class="brand-copy">
+          <span class="brand-title">Hamashi</span>
+          <span class="brand-subtitle">Cocina japonesa</span>
+        </span>
+      </a>
+
+      <nav class="category-nav" aria-label="Categorías del menú">
+        <p class="nav-label">Nuestro menú</p>
+        <button class="nav-btn active" type="button" data-category="Todos">Menú completo</button>
+        <button class="nav-btn" type="button" data-category="Rollos Tradicionales">Rollos tradicionales</button>
+        <button class="nav-btn" type="button" data-category="Rollos Especiales">Rollos especiales</button>
+        <button class="nav-btn" type="button" data-category="Rollos de Temporada">Rollos de temporada</button>
+        <button class="nav-btn" type="button" data-category="Otras Delicias">Otras delicias</button>
+      </nav>
+
+      <div class="sidebar-note">
+        <span class="note-flower" aria-hidden="true">✿</span>
+        <p>Hecho al momento,<br>para disfrutar sin prisa.</p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="main-header">
+        <div>
+          <p class="eyebrow">HAMASHI · SABOR JAPONÉS</p>
+          <h1 id="section-heading">Menú completo</h1>
+          <p class="header-description">Rollos, ramen y otras delicias preparadas al momento.</p>
+        </div>
+        <label class="search-box">
+          <span class="visually-hidden">Buscar platillo</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <circle cx="10.5" cy="10.5" r="6.5"></circle>
+            <path d="m16 16 5 5"></path>
+          </svg>
+          <input id="menu-search" type="search" placeholder="Buscar platillo..." autocomplete="off">
+        </label>
+      </header>
+
+      <div class="menu-toolbar">
+        <div class="category-pills" aria-label="Filtrar por categoría">
+          <button class="pill-btn active" type="button" data-category="Todos">Todos</button>
+          <button class="pill-btn" type="button" data-category="Rollos Tradicionales">Tradicionales</button>
+          <button class="pill-btn" type="button" data-category="Rollos Especiales">Especiales</button>
+          <button class="pill-btn" type="button" data-category="Rollos de Temporada">Temporada</button>
+          <button class="pill-btn" type="button" data-category="Otras Delicias">Otras delicias</button>
+        </div>
+        <span class="item-counter" id="item-counter" aria-live="polite"></span>
+      </div>
+
+      <section class="products-grid" id="products-grid" aria-label="Platillos disponibles"></section>
+
+      <footer class="main-footer">
+        <span>Precios en pesos mexicanos.</span>
+        <span>HAMASHI <span aria-hidden="true">濱市</span></span>
+      </footer>
+    </main>
+  </div>
+
+  <script src="js/menu.js"></script>
+</body>
+</html>
