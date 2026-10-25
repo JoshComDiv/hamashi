@@ -39,7 +39,7 @@ const MENU_COLUMNS = [
           { name: 'Ebi Roll Especial', description: 'Envuelto en camarón, coronado con aderezo especial y trozos de camarón empanizado.', price: '$180' },
           { name: 'Kimo Roll', description: 'Rollo envuelto en aguacate con Philadelphia, aderezo spicy y camarón empanizado al centro.', price: '$150' },
           { name: 'Tampi Roll', description: 'Empanizado, mitad con queso gratinado y mitad ensalada de surimi.', price: '$170' },
-          { name: 'Side Roll', description: 'Envuelto en salmón.', price: '$160' },
+          { name: 'Siake Roll', description: 'Envuelto en salmón.', price: '$160' },
           { name: 'Filete de Atún', description: 'Envuelto en atún.', price: '$160' },
           { name: 'Bufecito', description: '2 bocados empanizados, 2 de ajonjolí, 2 de surimi, 2 de aguacate y 2 de Philadelphia.', price: '$160' },
           { name: 'Colimense', description: 'Envuelto en aguacate, coronado con ensalada de surimi, salmón, anguila y un trocito de limón.', price: '$200' },
