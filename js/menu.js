@@ -22,7 +22,7 @@ const MENU_COLUMNS = [
           { name: 'Yeiko', description: 'Envuelto en aguacate, surimi, aderezo y trocitos de camarón empanizado.', price: '$170' },
           { name: 'Zeus', description: 'Envuelto en Philadelphia, coronado con salmón a la plancha y pasta wonton.', price: '$180' },
           { name: 'Ebi Roll', description: 'Envuelto en camarón.', price: '$140' },
-          { name: 'Kenay', description: 'Rollo solo arroz crujiente, coronado con queso manchego y atún spicy.', price: '$170' },
+          { name: 'Kenay (Crunch)', description: 'Rollo solo arroz crujiente, coronado con guacamole y atún spicy.', price: '$160' },
           { name: 'Philadelphia Empanizado', description: 'Empanizado y coronado con ensalada kani.', price: '$130' },
           { name: 'Kani Roll Especial', description: 'Empanizado y coronado con ensalada kani.', price: '$170' },
           { name: 'Terramar', description: 'Empanizado, cerdo, carne de res y camarón.', price: '$140' },
