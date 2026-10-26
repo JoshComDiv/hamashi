@@ -95,13 +95,13 @@ const MENU_COLUMNS = [
           { name: 'Tepanyaki', description: 'Verduras a la plancha cdon una porcion de arroz blanco, carne a elegir.', price: 'Res o Pollo $160 · mixto $170'},
           { name: 'Rollos Primavera', description: 'Orden de 3 y salsa agridulce.', price: '$90' },
           { name: 'Kimi Jaker', description: '2 bolsas de arroz frito empanizadas, al centro philadelphia,aguacate y carne a elegir.', price: '$130' },
-          { name: 'Sopa Udon', description: 'Fideo grueso con col, zanahoria, calabaza, champinon y cebollin con carne a elegir.', price: 'Res o Pollo $130 · Mix $150'},
+          { name: 'Sopa Udon', description: 'Fideo grueso con col, zanahoria, calabaza, champinon y cebollin con carne a elegir.', price: 'Res o Pollo $130 · Camaron o Mix $150'},
           { name: 'Namiyo', description: 'empanadas de pasta woton rellenas de ensalada de surimi y queso philadelphia.', price: '$90' },
           { name: 'Chilitos', description: '3 chiles gueros empanizados rellenos con ensalada kani.', price: '$90'},
           { name: 'Jaker', description: '2 bolsas de arroz blanco empanizadas, al centro philadelphia, aguacate y carne a elegir.', price: '$130'},
-          { name: 'Gohan', description: 'Arroz al vapor, carne a elegir, philadelphia, aguacate y ajonjoli.', price: 'Res o Pollo $130 · Mix $140'},
-          { name: 'Gyosas', description: 'Empanadas rellenas de camaron o carne de puerco.', price: '$90'},
-          { name: 'Brochetas Empanzadas', description: '1 queso, 2 camaron y 1 platano macho.', price: 'Cam: $140 · Mix: $120'},
+          { name: 'Gohan', description: 'Arroz al vapor, carne a elegir, philadelphia, aguacate y ajonjoli.', price: 'Res o Pollo $130 · Camaron o Mix $140'},
+          { name: 'Gyosas', description: 'Empanadas rellenas de carne de puerco.', price: '$90'},
+          { name: 'Brochetas Empanzadas', description: '1 queso, 2 camaron y 1 platano macho con queso.', price: 'Cam: $140 · Mix: $120'},
           { name: 'Canicas de pollo', description: 'Trocitos de pollo empanizado con salsa anguila o catsup y papas.', price: '$90'},
           { name: 'Yakimeshi Esp.', description: 'Arroz frito con verduras, carne a elegir, philadelphia y aguacate.', price: 'Chico: res, pollo o camarón $95\nMediano: res o pollo $130\nMediano: camarón $135\nMediano mixto: $140\nGrande: res o pollo $200\nGrande: camarón $210\nGrande mixto: $215' }
         ]
@@ -110,8 +110,9 @@ const MENU_COLUMNS = [
         title: 'Bebidas',
         items: [
           { name: 'Calpico', price: '$35' },
-          { name: 'Té helado jazmín', price: '$36' },
-          { name: 'Coca-Cola', price: '$38' },
+          { name: 'Té helado jazmín', price: '$35' },
+          { name: 'Agua Natural', price: '$20' },
+          { name: 'Coca-Cola', price: '$35' },
           { name: 'Arizona', price: '$35' },
           { name: 'Cerveza', price: '$40' }
         ]
