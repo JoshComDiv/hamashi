@@ -98,7 +98,7 @@ const MENU_COLUMNS = [
           { name: 'Sopa Udon', description: 'Fideo grueso con col, zanahoria, calabaza, champinon y cebollin.', price: '$130 · Mix $160'},
           { name: 'Namiyo', description: 'empanadas de pasta woton rellenas de ensalada de surimi.', price: '$90' },
           { name: 'chilitos', description: '3 chiles gueros empanizados rellenos con ensalada de mariscos.', price: '$90'},
-          { name: 'Jaker', description: '2 bolsas de arroz blanco empanizadas, a; centro philadelphia, aguacate y carne a elegir.', price: '$130'},
+          { name: 'Jaker', description: '2 bolsas de arroz blanco empanizadas, al centro philadelphia, aguacate y carne a elegir.', price: '$130'},
           { name: 'Gohan', description: 'Arroz al vapor, carne a elegir, philadelphia, aguacate y ajonjoli.', price: '$130 · Mix $140'},
           { name: 'Gyosas', description: 'Empanadas rellenas de camaron.', price: '$90'},
           { name: 'Brochetas Empanzadas', description: '1 queso, 2 camaron y 1 platano macho.', price: 'Cam: $140 · Mix: $120'},
