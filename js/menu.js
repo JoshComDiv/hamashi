@@ -121,7 +121,7 @@ const MENU_COLUMNS = [
         title: 'Postres',
         items: [
           { name: 'Helado frito', price: '$80' },
-          { name: 'Banana tempura', price: '$80' }
+          { name: 'Banana tempura', price: '$60' }
         ]
       }
     ]
