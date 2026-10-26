@@ -93,7 +93,7 @@ const MENU_COLUMNS = [
           { name: 'Tepa Udon', description: 'Verduras a la plancha con pasta udon y carne a elegir: pollo, camarón, res o mixto.', price: 'Camaron, Res o Pollo $160 · Camaron o Mixto $170' },
           { name: 'Pollo a la Naranja', description: 'Pollo a la naranja sobre arroz gohan, ajonjolí y una pizca de cebollín.', price: '$140' },
           { name: 'Verduras Tempura', description: 'Zanahoria, calabaza, morrón verde, cebolla y carne a elegir.', price: 'Res o pollo $130 · Camarón o mixto $140' },
-          { name: 'Tepanyaki', description: 'Verduras a la plancha cdon una porcion de arroz blanco, carne a elegir.', price: 'Res o Pollo $160 · Camaron o Mixto $170'},
+          { name: 'Tepanyaki', description: 'Verduras a la plancha con una porcion de arroz blanco, carne a elegir.', price: 'Res o Pollo $160 · Camaron o Mixto $170'},
           { name: 'Rollos Primavera', description: 'Orden de 3 y salsa agridulce.', price: '$90' },
           { name: 'Kimi Jaker', description: '2 bolsas de arroz frito empanizadas, al centro philadelphia,aguacate y carne a elegir.', price: '$130' },
           { name: 'Sopa Udon', description: 'Fideo grueso con col, zanahoria, calabaza, champinon y cebollin con carne a elegir.', price: 'Res o Pollo $130 · Camaron o Mix $150'},
@@ -110,6 +110,7 @@ const MENU_COLUMNS = [
         items: [
           { name: 'Gohan', description: 'Arroz al vapor, carne a elegir, philadelphia, aguacate y ajonjoli.', price: 'Res o Pollo $130 · Camaron o Mix $140'},
           { name: 'Yakimeshi Esp.', description: 'Arroz frito con verduras, carne a elegir, philadelphia y aguacate.', price: 'Chico: res, pollo o camarón $95\nMediano: res o pollo $130\nMediano: camarón $135\nMediano mixto: $140\nGrande: res o pollo $200\nGrande: camarón $210\nGrande mixto: $215' }
+          { name: 'Ebi don', description: 'Arroz naranja con trozos de camaron empanizado, aguacate y ajonjoli.', price: 'Medio $140 · Completo $200' },
         ]
       },
       {
