@@ -103,7 +103,7 @@ const MENU_COLUMNS = [
           { name: 'Gyosas', description: 'Empanadas rellenas de camaron.', price: '$90'},
           { name: 'Brochetas Empanzadas', description: '1 queso, 2 camaron y 1 platano macho.', price: 'Cam: $140 · Mix: $120'},
           { name: 'Canicas de pollo', description: 'Trocitos de pollo empanizado con salsa anguila o catsup y papas.', price: '$90'},
-          { name: 'Yakimeshi Esp.', description: 'Arroz frito con verduras, carne a elegir, philadelphia y aguacate.', price: 'Chico: $95 · Mediano: $130 · Camarón: $130 · Mixto: $140 · Grande con camarón: $210 · Grande mixto: $216'}
+          { name: 'Yakimeshi Esp.', description: 'Arroz frito con verduras, carne a elegir, philadelphia y aguacate.', price: 'Chico: $95 · Mediano: $130 · Camarón: $130\nMixto: $140 · Grande con camarón: $210 · Grande mixto: $216' }
         ]
       },
       {
