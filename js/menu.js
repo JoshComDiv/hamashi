@@ -99,6 +99,11 @@ const MENU_COLUMNS = [
           { name: 'Namiyo', description: 'empanadas de pasta woton rellenas de ensalada de surimi.', price: '$90' },
           { name: 'chilitos', description: '3 chiles gueros empanizados rellenos con ensalada de mariscos.', price: '$90'},
           { name: 'Jaker', description: '2 bolsas de arroz blanco empanizadas, a; centro philadelphia, aguacate y carne a elegir.', price: '$130'},
+          { name: 'Gohan', description: 'Arroz al vapor, carne a elegir, philadelphia, aguacate y ajonjoli.', price: '$130 · Mix $140'},
+          { name: 'Gyosas', description: 'Empanadas rellenas de camaron.', price: '$90'},
+          { name: 'Brochetas Empanzadas', description: '1 queso, 2 camaron y 1 platano macho.', price: 'Cam: $140 · Mix: $120'},
+          { name: 'Canicas de pollo', description: 'Trocitos de pollo empanizado con salsa anguila p catsup y papas.', price: '$90'},
+          { name: 'Yakimeshi Esp.', description: 'Arroz frito con verduras, carne a elegir, philadelphia y aguacate.', price: 'Chico: $95 · Mediano: $130 · Camaron: $130 · Mix: $140 · Grnd.Camaron: $210 · Grnd.Mix: $216 '},
         ]
       },
       {
