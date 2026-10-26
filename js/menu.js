@@ -102,8 +102,8 @@ const MENU_COLUMNS = [
           { name: 'Gohan', description: 'Arroz al vapor, carne a elegir, philadelphia, aguacate y ajonjoli.', price: '$130 · Mix $140'},
           { name: 'Gyosas', description: 'Empanadas rellenas de camaron.', price: '$90'},
           { name: 'Brochetas Empanzadas', description: '1 queso, 2 camaron y 1 platano macho.', price: 'Cam: $140 · Mix: $120'},
-          { name: 'Canicas de pollo', description: 'Trocitos de pollo empanizado con salsa anguila p catsup y papas.', price: '$90'},
-          { name: 'Yakimeshi Esp.', description: 'Arroz frito con verduras, carne a elegir, philadelphia y aguacate.', price: 'Chico: $95 · Mediano: $130 · Camaron: $130 · Mix: $140 · Grnd.Camaron: $210 · Grnd.Mix: $216 '},
+          { name: 'Canicas de pollo', description: 'Trocitos de pollo empanizado con salsa anguila o catsup y papas.', price: '$90'},
+          { name: 'Yakimeshi Esp.', description: 'Arroz frito con verduras, carne a elegir, philadelphia y aguacate.', price: 'Chico: $95 · Mediano: $130 · Camaron: $130 · Mix: $140 · Grnd.Camaron: $210 · Grnd.Mix: $216'}
         ]
       },
       {
