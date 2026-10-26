@@ -57,7 +57,7 @@ const MENU_COLUMNS = [
         title: 'Rollos Especiales',
         items: [
           { name: 'Arcoiris', description: 'Relleno de pepino, y aguacate, forrado de camaron, kani, salmon, atun y masago.', price: '$150' },
-          { name: 'Empanizado Especial', description: 'Empanizado por fuera conronado con ensalada kani trozitos de pulpo y poquito de giracha.', price: '$175' },
+          { name: 'Empanizado Especial', description: 'Empanizado por fuera conronado con ensalada kani trozitos de pulpo y poquito de siracha.', price: '$175' },
           { name: 'Tempura Spicy', description: 'Rollo capeado con tempura picante, coronado con ensalada de camarón, callo de almeja y aderezo chipotle.', price: '$170' },
           { name: 'Explosión', description: 'Rollo de samlon por fuera, al centro de surimi y pepino, coronado con camarón a la plancha picante y queso manchego gratinado.', price: '$210' },
           { name: 'Rollo Gruñudo', description: 'Al centro camarón empanizado, pepino y aguacate; coronado con ensalada kani.', price: '$160' },
