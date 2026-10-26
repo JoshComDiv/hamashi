@@ -100,10 +100,15 @@ const MENU_COLUMNS = [
           { name: 'Namiyo', description: 'empanadas de pasta woton rellenas de ensalada de surimi y queso philadelphia.', price: '$90' },
           { name: 'Chilitos', description: '3 chiles gueros empanizados rellenos con ensalada kani.', price: '$90'},
           { name: 'Jaker', description: '2 bolsas de arroz blanco empanizadas, al centro philadelphia, aguacate y carne a elegir.', price: '$130'},
-          { name: 'Gohan', description: 'Arroz al vapor, carne a elegir, philadelphia, aguacate y ajonjoli.', price: 'Res o Pollo $130 · Camaron o Mix $140'},
           { name: 'Gyosas', description: 'Empanadas rellenas de carne de puerco.', price: '$90'},
           { name: 'Brochetas Empanzadas', description: '1 queso, 2 camaron y 1 platano macho con queso.', price: 'Cam: $140 · Mix: $120'},
-          { name: 'Canicas de pollo', description: 'Trocitos de pollo empanizado con salsa anguila o catsup y papas.', price: '$90'},
+          { name: 'Canicas de pollo', description: 'Trocitos de pollo empanizado con salsa anguila o catsup y papas.', price: '$90'}
+        ]
+      },
+      {
+        title: 'Arroces',
+        items: [
+          { name: 'Gohan', description: 'Arroz al vapor, carne a elegir, philadelphia, aguacate y ajonjoli.', price: 'Res o Pollo $130 · Camaron o Mix $140'},
           { name: 'Yakimeshi Esp.', description: 'Arroz frito con verduras, carne a elegir, philadelphia y aguacate.', price: 'Chico: res, pollo o camarón $95\nMediano: res o pollo $130\nMediano: camarón $135\nMediano mixto: $140\nGrande: res o pollo $200\nGrande: camarón $210\nGrande mixto: $215' }
         ]
       },
@@ -145,6 +150,7 @@ const CATEGORY_TITLES = {
   'Rollos Especiales': 'Rollos especiales',
   'Rollos de Temporada': 'Rollos de temporada',
   'Otras Delicias': 'Otras delicias',
+  Arroces: 'Arroces',
   Bebidas: 'Bebidas',
   Postres: 'Postres'
 };
