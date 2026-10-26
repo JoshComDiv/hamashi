@@ -90,7 +90,7 @@ const MENU_COLUMNS = [
           { name: 'Ensalada de Mariscos', description: 'Pepino, camarón, kani, atún y callo de almeja coronado con aguacate.', price: 'Orden Media $90 · Completa $140' },
           { name: 'Chow Mein', description: 'Col, cebolla, apio, zanahoria y pasta. Elige pollo, camarón, res o mixto.', price: 'Camaron, Res o Pollo $140 · Mixto $150' },
           { name: 'Ramen Base de Puerco', description: 'Pasta, zanahoria, calabaza, naruto, elote amarillo, huevo, cebollín y carne a elegir. Puede ser picoso.', price: 'Res o Pollo $160 · Camaron $170 · Mixta o Panceta $180' },
-          { name: 'Tepa Udon', description: 'Verduras a la plancha con pasta udon y carne a elegir: pollo, camarón, res o mixto.', price: 'Camaron, Res o Pollo $160 · Mixto $170' },
+          { name: 'Tepa Udon', description: 'Verduras a la plancha con pasta udon y carne a elegir: pollo, camarón, res o mixto.', price: 'Camaron, Res o Pollo $160 · Camaron o Mixto $170' },
           { name: 'Pollo a la Naranja', description: 'Pollo a la naranja sobre arroz gohan, ajonjolí y una pizca de cebollín.', price: '$140' },
           { name: 'Verduras Tempura', description: 'Zanahoria, calabaza, morrón verde, cebolla y carne a elegir.', price: 'Res o pollo $130 · Camarón o mixto $140' },
           { name: 'Tepanyaki', description: 'Verduras a la plancha cdon una porcion de arroz blanco, carne a elegir.', price: 'Res o Pollo $160 · Camaron o Mixto $170'},
